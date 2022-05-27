@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/*em HTML id == em CSS #  (id is unique, so you can only use each id once
+  em HTML class == em CSS . (you can use the same class as many times as you want)*/
+body{
+    background-color: rgb(231, 205, 254);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: fuchsia;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: blueviolet;
+    color: black;
+    /*id sobrepoe class. Entao a cor vai ser fuchsia*/
+}
+
+h2{
+ color: blueviolet;
+}
+
+.basico{
+    color: brown;
+}
+
+.intermediario{
+    color: chartreuse;
+}
+
+.avancado{
+    color: cyan;
+}
+
+.destaque{
+    background-color: white;
+}
