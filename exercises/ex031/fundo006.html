@@ -14,12 +14,21 @@
             background-repeat: no-repeat;
             background-size: contain;/*makes the black things*/
             background-size: cover;/*the best, it cuts the picture if image too small*/
+            background-attachment: fixed;
+
+            /*Shorthand - background
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat cover fixed;
+            background-size: cover;
+            /*for some reason, the size doesnt word when doinga shorthand so you gotta do it separated*/
 
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
